@@ -1410,7 +1410,7 @@ a {
 .range-controls .bar {
   width: 60%;
   height: 2px;
-
+  margin-left: 10%;
   background-color: rgb(248, 247, 244);
 }
 
