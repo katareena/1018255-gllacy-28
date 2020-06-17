@@ -116,7 +116,7 @@ a {
 
   font-weight: 700;
   font-size: 32px;
-  line-height: calc (44/32);
+  line-height: calc(44/32);
   text-align: center;
   color: #ffffff;
   vertical-align: top;
@@ -244,19 +244,19 @@ a {
 #product-1:checked ~ .site-wrapper {
   background-color: #849d8f;
   background-image: url("../img/slide1.png");
-  background-size: 87%;
+  background-size: 69%;
 }
 
 #product-2:checked ~ .site-wrapper {
   background-color: #8996a6;
   background-image: url("../img/slide2.png");
-  background-size: 87%
+  background-size: 69%
 }
 
 #product-3:checked ~ .site-wrapper {
   background-color: #9d8b84;
   background-image: url("../img/slide3.png");
-  background-size: 87%
+  background-size: 69%
 }
 
 #product-1:checked ~ .site-wrapper #slide1,
@@ -358,7 +358,7 @@ a {
   left: 14px;
   right: 14px;
   bottom: 8px;
-  width: calc (100%-28px);
+  width: calc(100%-28px);
   height: 1px;
   background-color: rgba(255, 255, 255, 0.3);
   z-index: -1;
@@ -486,7 +486,7 @@ a {
   font-size: 14px;
   line-height: calc(16/14);
   font-weight: 500;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   height: 33px;
   border-radius: 50px;
   padding: 8px 16px;
@@ -510,7 +510,7 @@ a {
   font-size: 0;
   text-decoration: none;
   border-radius: 50%;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .user-link-basketfull {
@@ -717,6 +717,7 @@ a {
   right: 0;
   display: flex;
   flex-direction: column;
+  min-width: 170px;
 }
 
 .workhours{
@@ -778,7 +779,7 @@ a {
 }
 
 .raspberry {
-  background-color: rgb(129, 14, 37);
+  background-color: #810e25;
   background-image: url("../img/background-raspberry.jpg");
 }
 
@@ -1120,7 +1121,7 @@ a {
   padding-top: 10px;
   padding-bottom: 15px;
   font-size: 18px;
-  line-height: calc (24/18);
+  line-height: calc(24/18);
   margin-left: 10px;
 }
 
@@ -1340,7 +1341,7 @@ a {
   height: 37px;
   width: 194px;
 
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   border: none;
   padding-left: 12px;
@@ -1386,7 +1387,7 @@ a {
 
 .filter-item legend {
   font-size: 14px;
-  line-height: calc (16/14);
+  line-height: calc(16/14);
   font-weight: 500;
 }
 
@@ -1397,21 +1398,21 @@ a {
   padding-top: 17px;
   padding-right: 22px;
   padding-left: 22px;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
 }
 
 .range-controls .scale {
   height: 2px;
 
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .range-controls .bar {
   width: 60%;
   height: 2px;
   margin-left: 10%;
-  background-color: rgb(248, 247, 244);
+  background-color: #f8f7f4;
 }
 
 .range-controls .toggle {
@@ -1475,7 +1476,7 @@ a {
 .filter-fat {
   min-width: 425px;
   height: 37px;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   padding-left: 14px;
 }
@@ -1486,7 +1487,7 @@ a {
 
 .field-radio-label {
   font-size: 16px;
-  line-height: 18/16;
+  line-height: calc(18/16);
   color: #ffffff;
   cursor: pointer;
 }
@@ -1597,7 +1598,7 @@ a {
 .filter-filler {
   min-width: 710px;
   height: 37px;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   padding-left: 17px;
 }
@@ -1724,7 +1725,7 @@ a {
 .filter-button {
   font-size: 16px;
   font-weight: 500;
-  line-height: calc (18/16);
+  line-height: calc(18/16);
   text-align: center;
   color: #ffffff;
   vertical-align: top;
@@ -1869,7 +1870,7 @@ a {
   height: 32px;
 
   border-radius: 50%;
-  border: 2px solid rgb(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   color: #ffffff;
 }
 
@@ -2040,7 +2041,7 @@ a {
 .feedback-button {
   font-weight: 700;
   font-size: 18px;
-  line-height: calc (24/18);
+  line-height: calc(24/18);
   padding: 12px 24px;
   margin-left: auto;
   margin-right: 0;
